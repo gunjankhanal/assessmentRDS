@@ -145,12 +145,13 @@ Similarly, the process can be automated when we use AWS Lambda, lambda code shou
 
 # STEP 12: TAKING BACKUP TO DIFFERENT REGION
 We should take to automatic backup for the RDS to the same or different region, to the S3. If required, we can restore the database from that last point of your backup. Configure automated backups and snapshots to ensure point-in-time recovery and data protection. Set an appropriate retention period based on your recovery point objective (RPO) and compliance requirements.
+
 Consider these practices as well in designing the Architecture.
-Enable Enhanced Monitoring and Alerting Mechanism
-Enable automated Patching
-Properly collect logs and optimize the database if needed
-Minimal Services should be allowed in security groups
-Place the RDS in Private subnet
+1. Enable Enhanced Monitoring and Alerting Mechanism
+2. Enable automated Patching
+3. Properly collect logs and optimize the database if needed
+4. Minimal Services should be allowed in security groups
+5. Place the RDS in Private subnet
 
  
                 
